@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-10-04",
+  "method": "Static TypeScript metadata scan and local public-file existence check",
+  "results": [
+    {
+      "language": "ISL",
+      "expectedEntries": 34,
+      "discoveredEntries": 34,
+      "uniqueIds": 34,
+      "entriesWithVisuals": 0,
+      "entriesMissingVisuals": 34,
+      "brokenAssetReferences": 0,
+      "expertReview": "PENDING"
+    },
+    {
+      "language": "ASL",
+      "expectedEntries": 36,
+      "discoveredEntries": 36,
+      "uniqueIds": 36,
+      "entriesWithVisuals": 0,
+      "entriesMissingVisuals": 36,
+      "brokenAssetReferences": 0,
+      "expertReview": "PENDING"
+    }
+  ],
+  "limitations": [
+    "Does not validate sign meanings or hand configurations",
+    "Does not validate copyright or licence",
+    "Does not run the application or browser tests"
+  ],
+  "overallStatus": "PARTIAL_VISUAL_COVERAGE"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "sanket-counter-access",
+  "version": "1.2.2",
+  "private": true,
+  "description": "Accessible, counter-first communication support prototype for public-service interactions.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "audit:assets": "node scripts/audit-sign-assets.mjs",
+    "audit:release": "node scripts/audit-release.mjs",
+    "audit:accessibility": "node scripts/audit-accessibility.mjs",
+    "evaluate:recognition": "node scripts/evaluate-recognition.mjs"
+  },
+  "dependencies": {
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.3.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  }
+}

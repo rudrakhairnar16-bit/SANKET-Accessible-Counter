@@ -1,0 +1,10 @@
+{
+  "name": "SANKET Counter Access",
+  "short_name": "SANKET",
+  "description": "Accessible communication support for public-service counters.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f9f8",
+  "theme_color": "#087e78",
+  "lang": "en-IN"
+}
